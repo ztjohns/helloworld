@@ -1,0 +1,9 @@
+div
+    label First Name
+    % Input @value=this.firstName
+div
+    label Last Name
+    % Input @value=this.lastName
+
+p My name is #{this.fullName}
+p Autotracking #{this.afullname}
