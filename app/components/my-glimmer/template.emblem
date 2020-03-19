@@ -1,10 +1,10 @@
 div
-    label First Name
+    label First Glimmer
     % Input @value=this.firstName
 div
-    label Last Name
+    label Last Glimmer
     % Input @value=this.lastName
 
-p My name is #{this.fullName}
+p My glimmer is #{this.fullName}
 p reverseeee #{this.reverseReverse}
 p Autotracking #{this.afullname}
